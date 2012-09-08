@@ -29,7 +29,6 @@ Package.on_use(function(api) {
 	api.add_files('lib/codemirror/mode/less/less.js', where);
 	api.add_files('lib/codemirror/mode/lua/lua.js', where);
 	api.add_files('lib/codemirror/mode/markdown/markdown.js', where);
-	api.add_files('lib/codemirror/mode/markdown/test.js', where);
 	api.add_files('lib/codemirror/mode/mysql/mysql.js', where);
 	api.add_files('lib/codemirror/mode/ntriples/ntriples.js', where);
 	api.add_files('lib/codemirror/mode/ocaml/ocaml.js', where);
@@ -53,7 +52,6 @@ Package.on_use(function(api) {
 	api.add_files('lib/codemirror/mode/smarty/smarty.js', where);
 	api.add_files('lib/codemirror/mode/sparql/sparql.js', where);
 	api.add_files('lib/codemirror/mode/stex/stex.js', where);
-	api.add_files('lib/codemirror/mode/stex/test.js', where);
 	api.add_files('lib/codemirror/mode/tiddlywiki/tiddlywiki.js', where);
 	api.add_files('lib/codemirror/mode/tiki/tiki.js', where);
 	api.add_files('lib/codemirror/mode/vb/vb.js', where);
@@ -62,12 +60,6 @@ Package.on_use(function(api) {
 	api.add_files('lib/codemirror/mode/verilog/verilog.js', where);
 	api.add_files('lib/codemirror/mode/xml/xml.js', where);
 	api.add_files('lib/codemirror/mode/xquery/xquery.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testBase.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testEmptySequenceKeyword.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testMultiAttr.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testNamespaces.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testProcessingInstructions.js', where);
-	api.add_files('lib/codemirror/mode/xquery/test/testQuotes.js', where);
 	api.add_files('lib/codemirror/mode/yaml/yaml.js', where);
 
 	// themes
@@ -78,7 +70,6 @@ Package.on_use(function(api) {
 	api.add_files('lib/codemirror/theme/elegant.css', where);
 	api.add_files('lib/codemirror/theme/erlang-dark.css', where);
 	api.add_files('lib/codemirror/theme/lesser-dark.css', where);
-	api.add_files('lib/codemirror/theme/list.txt', where);
 	api.add_files('lib/codemirror/theme/monokai.css', where);
 	api.add_files('lib/codemirror/theme/neat.css', where);
 	api.add_files('lib/codemirror/theme/night.css', where);
