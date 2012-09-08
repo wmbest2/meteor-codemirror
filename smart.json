@@ -3,6 +3,6 @@
   "description": "CodeMirror repackaged for Meteor",
   "homepage": "https://github.com/digioak/meteor-codemirror",
   "author": "Oak Chantosa <o.chantosa@gmail.com>",
-  "version": "2.33",
+  "version": "2.3",
   "git": "https://github.com/digioak/meteor-codemirror.git"
 }
