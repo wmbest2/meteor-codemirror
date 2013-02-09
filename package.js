@@ -77,4 +77,8 @@ Package.on_use(function(api) {
         api.add_files('lib/codemirror/theme/vibrant-ink.css', where);
         api.add_files('lib/codemirror/theme/solarized.css', where);
         api.add_files('lib/codemirror/theme/xq-dark.css', where);
+
+        // key bindings
+        api.add_files('lib/codemirror/keymap/vim.js', where);
+        api.add_files('lib/codemirror/keymap/emacs.js', where);
 });
