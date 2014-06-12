@@ -14,7 +14,6 @@ Package.on_use(function(api) {
         api.add_files('lib/codemirror/mode/clojure/clojure.js', where);
         api.add_files('lib/codemirror/mode/coffeescript/coffeescript.js', where);
         api.add_files('lib/codemirror/mode/css/css.js', where);
-        api.add_files('lib/codemirror/mode/css/less.js', where);
         api.add_files('lib/codemirror/mode/diff/diff.js', where);
         api.add_files('lib/codemirror/mode/ecl/ecl.js', where);
         api.add_files('lib/codemirror/mode/erlang/erlang.js', where);
