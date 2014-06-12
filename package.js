@@ -26,7 +26,6 @@ Package.on_use(function(api) {
         api.add_files('lib/codemirror/mode/htmlmixed/htmlmixed.js', where);
         api.add_files('lib/codemirror/mode/javascript/javascript.js', where);
         api.add_files('lib/codemirror/mode/jinja2/jinja2.js', where);
-        api.add_files('lib/codemirror/mode/less/less.js', where);
         api.add_files('lib/codemirror/mode/lua/lua.js', where);
         api.add_files('lib/codemirror/mode/markdown/markdown.js', where);
         api.add_files('lib/codemirror/mode/sql/sql.js', where);
